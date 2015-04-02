@@ -14,13 +14,13 @@
 		8F3B90C81ACCC06200862C02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B90C71ACCC06200862C02 /* main.m */; };
 		8F3B90CC1ACCC06200862C02 /* GTWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B90CB1ACCC06200862C02 /* GTWAppDelegate.m */; };
 		8F3B90CF1ACCC06200862C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3B90CD1ACCC06200862C02 /* Main.storyboard */; };
-		8F3B90D21ACCC06200862C02 /* GTWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B90D11ACCC06200862C02 /* GTWViewController.m */; };
 		8F3B90D41ACCC06300862C02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3B90D31ACCC06300862C02 /* Images.xcassets */; };
 		8F3B90DB1ACCC06300862C02 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3B90DA1ACCC06300862C02 /* XCTest.framework */; };
 		8F3B90DC1ACCC06300862C02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3B90BB1ACCC06200862C02 /* Foundation.framework */; };
 		8F3B90DD1ACCC06300862C02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3B90BF1ACCC06200862C02 /* UIKit.framework */; };
 		8F3B90E51ACCC06300862C02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F3B90E31ACCC06300862C02 /* InfoPlist.strings */; };
 		8F3B90E71ACCC06300862C02 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B90E61ACCC06300862C02 /* UITableViewController_Challenge_SolutionTests.m */; };
+		8F3B90F21ACCC6A800862C02 /* GTWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B90F11ACCC6A800862C02 /* GTWTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		8F3B90CA1ACCC06200862C02 /* GTWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTWAppDelegate.h; sourceTree = "<group>"; };
 		8F3B90CB1ACCC06200862C02 /* GTWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTWAppDelegate.m; sourceTree = "<group>"; };
 		8F3B90CE1ACCC06200862C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F3B90D01ACCC06200862C02 /* GTWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTWViewController.h; sourceTree = "<group>"; };
-		8F3B90D11ACCC06200862C02 /* GTWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTWViewController.m; sourceTree = "<group>"; };
 		8F3B90D31ACCC06300862C02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8F3B90D91ACCC06300862C02 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3B90DA1ACCC06300862C02 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8F3B90E21ACCC06300862C02 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		8F3B90E41ACCC06300862C02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F3B90E61ACCC06300862C02 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		8F3B90F01ACCC6A800862C02 /* GTWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTWTableViewController.h; sourceTree = "<group>"; };
+		8F3B90F11ACCC6A800862C02 /* GTWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTWTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				8F3B90CA1ACCC06200862C02 /* GTWAppDelegate.h */,
 				8F3B90CB1ACCC06200862C02 /* GTWAppDelegate.m */,
 				8F3B90CD1ACCC06200862C02 /* Main.storyboard */,
-				8F3B90D01ACCC06200862C02 /* GTWViewController.h */,
-				8F3B90D11ACCC06200862C02 /* GTWViewController.m */,
+				8F3B90F01ACCC6A800862C02 /* GTWTableViewController.h */,
+				8F3B90F11ACCC6A800862C02 /* GTWTableViewController.m */,
 				8F3B90D31ACCC06300862C02 /* Images.xcassets */,
 				8F3B90C21ACCC06200862C02 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F3B90D21ACCC06200862C02 /* GTWViewController.m in Sources */,
 				8F3B90C81ACCC06200862C02 /* main.m in Sources */,
+				8F3B90F21ACCC6A800862C02 /* GTWTableViewController.m in Sources */,
 				8F3B90CC1ACCC06200862C02 /* GTWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
